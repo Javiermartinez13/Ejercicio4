@@ -39,8 +39,24 @@ public class Principal {
         lista3.add(3.0);
         lista3.add(4.0);
         lista3.add(5.0);
-
         System.out.println("La desviación típica de la lista es: " + mates.DesviacionTipica);
+
+        int m = 9;
+        System.out.println("La suma de los primeros números pares hasta " + m + " es: " + mates.Pares);
+
+        List<Integer> lista4 = new ArrayList<>();
+        lista4.add(1);
+        lista4.add(2);
+        lista4.add(3);
+        lista4.add(4);
+        System.out.println("La suma de los elementos pares de la lista es: " + mates.ParesLista);
+
+        List<Integer> lista5 = List.of(1, 2, 3);
+        List<Integer> lista6 = List.of(2, 4, 6);
+
+        System.out.println("El producto escalar de las listas es: " + mates.calcularProductoEscalar);
+
+
         
 
         
